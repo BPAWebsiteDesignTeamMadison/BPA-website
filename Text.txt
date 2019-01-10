@@ -1,1 +1,26 @@
+Delete all of the "Find out all you need to know about this years national leadership conference"
+
+For "Event info goes here", put "Find out all you need to know about NLC 2020"
+For "Travel info goes here", put "Get hotels and other traveling needs here"
+For "Tourism...", put "Come look at museums, hotels, monuments, and other important National Landmarks"
+For "Transportation...", put "Make sure you know your way around Washington D.C."
+
+If you're going to make other pages, here's what I would think would look good
+  Event Info: Just have the a big title (this would go on every page) that is the same as the tab name, so "Event Info"
+    Put this:
+      "When: May 6-10, 2020
+      Where: Washington DC
+      Specific Location: TBA
+      
+      Be ready to recieve more info on next year's NLC as the date gets closer!"
+      (lines 11-15 are all text inside the website)
+   Travel Info: Put this:
+      "Find hotels in Washington DC"
+      (if you can, implement a map of Washington DC)
+   Tourism:
+       Put these buttons: Monuments, Museums, Federal Buildings
+       That might be all we need right now, but if you can, make a page for each button
+   Transportation:
+        Put these buttons: Metro, Taxi Services, Bus Lines, Lift Services
+
 
