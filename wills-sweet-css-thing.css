@@ -59,7 +59,7 @@
 /* 2nd */
 .underline-2:before {  content: "";
   position: absolute;
-  width: 110px;
+  width: 86px;
   height: 3px;
   border-radius: 3px;
   margin-top: 26px;

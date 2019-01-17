@@ -1,25 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>NLC 2020</title>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BPA 2020 Washington DC trip Website">
+    <meta name="keywords" content="bpa,bpa nationals,bpa 2020,bpa national competition,bpa washingtion dc,business professionals of america,business professionals of america nationals,business professionals of america 2020,business professionals of america national competition,business professionals of america washington dc">
+    <meta name="author" content="William Madsen, Eddie Richards, Josh Dabell">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="wills-sweet-css-thing.css">    
     <link rel="stylesheet" type="text/css" href="css.css">    
     <link rel="icon" type="img/ico" href="IMG/icon3.ico">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-
 </head>
-<body id="body">
+<body>
 <nav class="navbar navbar-expand-sm bg-dar navcolor">
   
-  <a href="draft.html">
+  <a href="index.html" class="logo">
     <img src="IMG/logo.png" alt="logo" style="width:220px; margin-top: 48px;">
   </a>
   <!-- Links -->
@@ -43,32 +50,57 @@
     </ul>
     
     
-    <ul class="navbar-nav">
+    <ul class="navbar-nav countdown">
         
         <li class="navbar-nav bounce animated countdown"><p>Countdown To Nationals:&nbsp;</p><p id="timer">...</p>
         </li>
         
     </ul>    
 </nav>
+                        
+<div class="dropdown nav">
+    <button class="btn btn-primary dropdown-toggle nav_dropdown" type="button" data-toggle="dropdown"><i class="fas fa-bars"></i>
+    <span class="caret"></span></button>
+    
+    <ul class="dropdown-menu">
+        <li>
+            <a class="nav_dropdown_item" href="#event">Event Info</a>
+        </li>
+                                      
+        <li class="nav-item">
+            <a class="nav_dropdown_item" href="#traveling">Travel Info</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav_dropdown_item" href="#tourism">Tourism</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav_dropdown_item" href="#transportation">Transportation</a>
+        </li>
+    </ul>
+</div>
+    
+    
+    
 
-    
-    
-    
 <main>
-<section class="slideshow">
     
+    
+<section class="slideshow">
+    <h1 class="heading_top">Business Professionals of America</h1>
 
     <div class="slideshow-container">
     <div class="mySlides fade">
-      <img src="IMG/washington-dc-1624419_1280.jpg" class="slideshow-pic w3-animate-top" id="slide">
+      <img src="IMG/washington-dc-1624419_1280.jpg" alt="white house" class="slideshow-pic w3-animate-top">
     </div>
     
     <div class="mySlides fade">
-      <img src="IMG/washington-dc-1622643_1280.jpg" class="slideshow-pic" id="slide">
+      <img src="IMG/washington-dc-1622643_1280.jpg" alt="washington monument" class="slideshow-pic">
     </div>
     
     <div class="mySlides fade">
-      <img src="IMG/lincoln-222759_1280.jpg" class="slideshow-pic" id="slide">
+      <img src="IMG/lincoln-222759_1280.jpg" alt="lincon memorial" class="slideshow-pic">
     </div>
 </div>
     
@@ -82,12 +114,12 @@
 </section>    
     
     
-<section class="section"><hr id="event">
+<section class="section"><hr id="event" class="hr_main">
     
-    <img src="IMG/Washington-DC-US-Capitol-Building-East-Side.jpg" class="dimimg" width=50%> 
+    <img src="IMG/Washington-DC-US-Capitol-Building-East-Side.jpg" alt="capitol building" class="dimimg half_size"> 
 
     <div class="textcontainer">
-        <h1>Event Info</h1>
+        <h2>Event Info</h2>
         
         <p>Find out all you need to know about NLC 2020</p>
         <p class="wid">When: May 6-10, 2020<br>Where: Washington DC<br>Specific Location: TBA<br><br>Be ready to recieve more info on next year's NLC as the date gets closer!</p>
@@ -95,19 +127,19 @@
     
         
         
-        <button data-toggle="collapse" data-target="#dropdown_1" id="dropdown-button_2">Click Here To Read More...</button>
+        <button data-toggle="collapse" data-target="#dropdown_1" class="dropdown-button_2">Click Here To Read More...</button>
     </div>
     <div id="dropdown_1" class="collapse">
         <div class="dr_1-content"><br>
-            <hr>
-            <h2>Details</h2>
+            <hr class="hidden">
+            <h2>Event Info Details</h2>
             
             <p>Get ready for 2020's National Leadership Conference, this time in our country's capital, Washington D.C. NLC will be just as exciting as past years, but with the added spirit and excitement of being held in our nation's capital. Be prepared for an incredible time that includes incredible sights, amazing experiences, and a trip you will always remember.</p>
             
             <p>More info will come to light as we get closer to NLC 2020 @ Washington D.C. Be sure to check out BPA.org for more information as May 6 gets closer and closer.</p>
             
             
-            <video width=50% controls>
+            <video class="half_size" controls>
                <source src="IMG/intro.mp4" type="video/mp4">
                An error occured. Video no longer available.
             </video>
@@ -115,53 +147,62 @@
     </div>
 </section>
  
-<section class="section"><hr id="traveling">
-    <img src="IMG/washington-d-1624095_640.jpg" class="dimimg rightside" width=50%>
+<section class="section"><hr class="hr_main">
+    <img src="IMG/washington-d-1624095_640.jpg" alt="washingon dc from an aerial view" class="dimimg rightside special half_size">
 
 
     <div class="travelingtextcontainer">
 
-        <h1>Traveling Info</h1>
+        <h2>Traveling Info</h2>
         <p>Get hotels and other traveling needs here</p>
         
         
-        <button data-toggle="collapse" data-target="#dropdown_2" id="dropdown-button">Click Here To Read More...</button>
+        <button data-toggle="collapse" data-target="#dropdown_2" class="dropdown-button">Click Here To Read More...</button>
 
 
     </div>
     <div id="dropdown_2" class="collapse">
         <div class="dr_1-content"><br>
-            <hr>
-            <h2>Details</h2>
+            <hr class="hidden">
+            <h2>Traveling Info Details</h2>
             
             <p>Be sure you know where you want to stay at. There are many hotels that are available around the city, and many will suit your needs depending on the areas you want to visit. Also important is your method of travel to Washington D.C. Be sure to plan ahead about flights and prices for flights. Also look for restaurants and dining facilities you might plan to use. All of these are important to know about when planning to travel.</p>
             
             
             
             
-            <img src="IMG/travel.png" width=50%>
+            <img src="IMG/travel.png" class="half_size" alt="cars on a road">
+            <div class="links">
+                <h4>Helpful Links:</h4>
+                <ul>
+                    <li><a href="https://bikeandrolldc.com/rentals/" target="_blank">Bike Rentals</a></li>
+                    <li><a href="https://www.booking.com/city/us/washington.html" target="_blank">Book a Hotel</a></li>
+                    <li><a href="https://www.tripadvisor.com/Flights-g28970-Washington_DC_District_of_Columbia-Cheap_Discount_Airfares.html" target="_blank">Book a Flight</a></li>
+                </ul>
+            </div>
+            
         </div>
     </div>
 
 </section>
     
-<section class="section"><hr id="tourism">
+<section class="section"><hr id="tourism" class="hr_main">
     
-    <img src="IMG/aviation-3494936_1280.jpg" class="dimimg" width=50%> 
+    <img src="IMG/aviation-3494936_1280.jpg" alt="airplanes in a museum" class="dimimg half_size"> 
     
     <div class="textcontainer">
-        <h1>Tourism</h1>
+        <h2>Tourism</h2>
         <p class="wid">Come look at museums, hotels, monuments, and other important National Landmarks</p>
         
             
         
-        <button data-toggle="collapse" data-target="#dropdown_3" id="dropdown-button_2">Click Here To Read More...</button>
+        <button data-toggle="collapse" data-target="#dropdown_3" class="dropdown-button_2">Click Here To Read More...</button>
 
     </div>
     <div id="dropdown_3" class="collapse">
         <div class="dr_1-content"><br>
-            <hr>
-            <h2>Details</h2>
+            <hr class="hidden">
+            <h2>Tourism Details</h2>
             
             <p>See Washington D.C.'s greatest views and attractions. These include, but are not limited to:
 Monuments and Memorials, like the Washington Monument or the Lincoln Memorial.
@@ -170,22 +211,30 @@ Museums, such as the Smithsonian or the Holocaust Memorial Museum</p>
             <p>Make sure to do your research on entrance fees and open hours for each tourist sight you want to visit. Many museums are open from 8:30 AM to 5:30 PM. Monuments, like the Washington Monument, are open from 9 AM to 10 PM.</p>
             
             
-            <img src="IMG/tour.png" width=50%>
+            <img src="IMG/tour.png" class="half_size" alt="reflecting pool and washington monument">
+            <div class="links">
+                <h4>Popular Destinations:</h4>
+                <ul>
+                    <li><a href="https://www.tripadvisor.com/Attractions-g28970-Activities-c42-Washington_DC_District_of_Columbia.html" target="_blank">Things to do</a></li>
+                    <li><a href="https://www.yelp.com/search?cflt=restaurants&find_loc=Washington%2C+DC" target="_blank">Things to eat</a></li>
+                    <li><a href="https://www.planetware.com/tourist-attractions/district-of-columbia-usdc.htm" target="_blank">Places to go</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
     
-<section class="section"><hr id="transportation">
+<section class="section"><hr id="transportation" class="hr_main">
 
-    <img src="IMG/metro-1772722_1280.jpg" class="dimimg rightside" width=50%>
+    <img src="IMG/metro-1772722_1280.jpg" alt="metro train" class="dimimg rightside half_size">
 
     <div class="travelingtextcontainer">
-        <h1>Transportation</h1>
+        <h2>Transportation</h2>
         <p>Make sure you know your way around Washington D.C.</p>
         
         
         
-        <button data-toggle="collapse" data-target="#dropdown_4" id="dropdown-button" onclick="myFunction()">Click Here To Read More...</button>
+        <button data-toggle="collapse" data-target="#dropdown_4" class="dropdown-button" onclick="myFunction()">Click Here To Read More...</button>
 
         
             
@@ -193,8 +242,8 @@ Museums, such as the Smithsonian or the Holocaust Memorial Museum</p>
     </div>
         <div id="dropdown_4" class="collapse">
             <div class="dr_4-content"><br><br><br><br><br><br><br>
-                <hr>
-            <h2>Details</h2>
+                <hr class="hidden">
+            <h2>Transportation Details</h2>
             
             <p>Washington D.C. and surrounding area Metrorail hours of operation:
 Monday - Thursday	5 am - 11:30 pm
@@ -208,16 +257,13 @@ The cost of one fare is $2.00. Make sure to carry the exact amount as the bus dr
 Metrobus operates 24/7, but there are times when the lines are less busy than others.</p>
             
             
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99370.32238286962!2d-77.08461836589919!3d38.893738149342965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C+DC!5e0!3m2!1sen!2sus!4v1547610555774" width="560" height="440" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99370.32238286962!2d-77.08461836589919!3d38.893738149342965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C+DC!5e0!3m2!1sen!2sus!4v1547610555774" width="560" height="440" style="border:0" allowfullscreen></iframe>
         </div>
     </div>
 </section>
 </main>
 
-    
-    
-    
-    
+
 <footer>
     <div class="our_info">
         <div>BPA Website Design Team:<br>William Madsen<br>Eddie Richards<br>Josh Dabell<br>
@@ -226,27 +272,13 @@ Metrobus operates 24/7, but there are times when the lines are less busy than ot
         <div>Madison High School<br>Rexburg ID<br>"Chapter" 2019<br>"Theme"</div>
     </div>
     
+    <div class="copy">
+        <p>Copyright 2019 &copy;</p>
+    </div>
 </footer>
 
-<script src="javascript-for-timer.js"></script>    
-<script src="slideshow.js"></script>
-    
-<script>
-function offsetAnchor() {
-  if (location.hash.length !== 0) {
-    window.scrollTo(window.scrollX, window.scrollY - 70);
-  }
-}
-$(document).on('click', 'a[href^="#"]', function(event) {
-  window.setTimeout(function() {
-    offsetAnchor();
-  }, 0);
-});
-
-window.setTimeout(offsetAnchor, 0);    
-</script>
-    
-
-
+    <script src="javascript-for-timer.js"></script>    
+    <script src="slideshow.js"></script>
+    <script src="anchor_offset.js"></script>
 </body>
 </html>
