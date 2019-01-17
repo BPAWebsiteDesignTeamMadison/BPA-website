@@ -89,6 +89,7 @@ animation:animatetop 5.5s;
         .nav-link{
         color:whitesmoke;
         }
+
         h1,h2,h3,h4,h5,h6{
             color:#FE3953;
             font-family: 'Roboto Slab', serif;
@@ -232,6 +233,10 @@ footer {
 
 .hr_main {
     margin: 100px;
+}
+
+.hr_hidden {
+    border-color: whitesmoke
 }
 
 .dropdown {
